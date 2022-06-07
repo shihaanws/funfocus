@@ -3,7 +3,9 @@
     background-color: var(--white-color);
     align-items: center;
 }
-
+.head:hover{
+    cursor: pointer;
+}
 .navnav {
     background: #67B26F;
     /* fallback for old browsers */
