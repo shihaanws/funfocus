@@ -1,0 +1,66 @@
+.task-list {
+    row-gap: 2rem;
+}
+
+.task-item {
+
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+}
+
+.task-details {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.task-heading {
+    font-size: 2.4rem;
+    word-wrap: break-word;
+    margin-bottom: 2rem;
+    color: var(--default-darker-color);
+}
+
+.task-properties {
+    font-size: 1.8rem;
+    color: var(--content-text-color);
+    word-wrap: break-word;
+}
+
+.task-operations {
+    font-size: 2.5rem;
+    column-gap: 3rem;
+    padding: 2rem;
+}
+
+.view-pomodoro-btn {
+    color: var(--default-color);
+}
+
+.edit-task-btn {
+    color: var(--primary-darker-color);
+}
+
+.delete-task-btn {
+    color: var(--danger-color);
+}
+
+.view-pomodoro-btn:hover,
+.edit-task-btn:hover,
+.delete-task-btn:hover {
+    filter: brightness(75%);
+}
+
+/* -----------------------------------> Responsive CSS <-------------------------------- */
+@media only screen and (max-width: 450px) {
+    .task-properties {
+        font-size: 1.6rem;
+    }
+
+    .task-operations {
+        font-size: 2.2rem;
+    }
+}

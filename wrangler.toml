@@ -1,0 +1,9 @@
+main = "workers-site/index.js"
+account_id = "44fb5e0f6dfdde0ee0593f246cc046ef"
+name = "fun-focus"
+workers_dev = true
+compatibility_date = "2022-06-07"
+
+[site]
+bucket = "./build"
+

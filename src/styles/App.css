@@ -1,0 +1,22 @@
+@import url("https://sapphire-ui.netlify.app/css/components.css");
+@import "./styles.css";
+@import "./colors.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--white-color);
+}
+
+/* ----------------------------------------> Scrollbar <------------------------------------------ */
+::-webkit-scrollbar {
+    height: 2px;
+    width: 3px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: var(--primary-darker-color); 
+    border-radius: 0.625rem;
+}
